@@ -22,18 +22,18 @@ export default function Home() {
                 <span className="font-rajdhani text-xs md:text-sm text-gray-700">
                   Get a precise, <strong>AI-Powered </strong>quote in minutes.
                 </span>
-<button className="bg-blue-100 hover:bg-blue-200 text-blue-600 px-3 py-1 md:px-4 md:py-1.5 rounded-full font-rajdhani font-medium text-xs md:text-sm flex items-center gap-2 whitespace-nowrap">
-  <strong>Instant AI Quote → </strong>
-</button>
+                <button className="bg-blue-100 hover:bg-blue-200 text-blue-600 px-3 py-1 md:px-4 md:py-1.5 rounded-full font-rajdhani font-medium text-xs md:text-sm flex items-center gap-2 whitespace-nowrap">
+                  <strong>Instant AI Quote → </strong>
+                </button>
               </div>
-              <img 
-                src="/aiLine.png" 
-                alt="AI line decoration" 
+              <img
+                src="/aiLine.png"
+                alt="AI line decoration"
                 className="h-1 md:h-2 w-auto md:w-16 -mt-2 ml-20 md:ml-18"
               />
             </div>
           </div>
-<div className="flex flex-wrap items-center gap-2 md:mt-1 mt-1 md:gap-4 justify-start md:justify-start mx-0 md:mx-auto md:ml-auto pr-4 md:pl-48 text-blue-600">
+          <div className="flex flex-wrap items-center gap-2 md:mt-1 mt-1 md:gap-4 justify-start md:justify-start mx-0 md:mx-auto md:ml-auto pr-4 md:pl-48 text-blue-600">
             <div className="flex items-center gap-1">
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
@@ -63,7 +63,7 @@ export default function Home() {
 
       {/* Overlay for mobile sidebar */}
       {isMenuOpen && (
-        <div 
+        <div
           className="fixed inset-0 bg-black bg-opacity-50 z-40 md:hidden"
           onClick={() => setIsMenuOpen(false)}
         ></div>
@@ -83,7 +83,7 @@ export default function Home() {
 
             <div className="hidden md:flex items-center gap-8">
               <a href="#" className="font-rajdhani font-medium text-[#060707] hover:text-blue-700">
-               <b> Home</b>
+                <b> Home</b>
               </a>
               <div className="relative group">
                 <a
@@ -155,9 +155,8 @@ export default function Home() {
         </div>
 
         {/* Mobile Sidebar */}
-        <div className={`md:hidden fixed top-0 left-0 h-full w-80 bg-white shadow-2xl z-50 transform transition-transform duration-300 ease-in-out ${
-          isMenuOpen ? 'translate-x-0' : '-translate-x-full'
-        }`}>
+        <div className={`md:hidden fixed top-0 left-0 h-full w-80 bg-white shadow-2xl z-50 transform transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'
+          }`}>
           {/* Sidebar Header */}
           <div className="flex items-center justify-between p-6 border-b border-gray-200">
             <div className="flex items-center gap-3">
@@ -178,8 +177,8 @@ export default function Home() {
 
           {/* Sidebar Navigation */}
           <div className="flex flex-col py-6">
-            <a 
-              href="#" 
+            <a
+              href="#"
               className="flex items-center px-3 py-2 text-blue-600 bg-blue-50 border-r-4 border-blue-600 font-rajdhani font-semibold text-sm"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -188,9 +187,9 @@ export default function Home() {
               </svg>
               Home
             </a>
-            
-            <a 
-              href="#" 
+
+            <a
+              href="#"
               className="flex items-center px-3 py-2 text-gray-700 hover:bg-gray-50 hover:text-blue-600 font-rajdhani font-medium text-sm transition-colors duration-200"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -202,9 +201,9 @@ export default function Home() {
                 <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
               </svg>
             </a>
-            
-            <a 
-              href="#" 
+
+            <a
+              href="#"
               className="flex items-center px-3 py-2 text-gray-700 hover:bg-gray-50 hover:text-blue-600 font-rajdhani font-medium text-sm transition-colors duration-200"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -216,9 +215,9 @@ export default function Home() {
                 <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
               </svg>
             </a>
-            
-            <a 
-              href="#" 
+
+            <a
+              href="#"
               className="flex items-center px-3 py-2 text-gray-700 hover:bg-gray-50 hover:text-blue-600 font-rajdhani font-medium text-sm transition-colors duration-200"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -230,9 +229,9 @@ export default function Home() {
                 <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
               </svg>
             </a>
-            
-            <a 
-              href="#" 
+
+            <a
+              href="#"
               className="flex items-center px-3 py-2 text-gray-700 hover:bg-gray-50 hover:text-blue-600 font-rajdhani font-medium text-sm transition-colors duration-200"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -241,9 +240,9 @@ export default function Home() {
               </svg>
               Projects
             </a>
-            
-            <a 
-              href="#" 
+
+            <a
+              href="#"
               className="flex items-center px-3 py-2 text-gray-700 hover:bg-gray-50 hover:text-blue-600 font-rajdhani font-medium text-sm transition-colors duration-200"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -256,7 +255,7 @@ export default function Home() {
 
           {/* Sidebar Footer */}
           <div className="absolute bottom-0 left-0 right-0 p-6 border-t border-gray-200">
-            <button 
+            <button
               className="w-full bg-[#F98600] hover:bg-orange-600 text-white px-3 py-2 rounded-full font-rajdhani font-semibold text-sm transition-colors duration-200"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -273,25 +272,25 @@ export default function Home() {
         <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-lg relative">
           <svg className="w-full h-full" viewBox="0 0 80 80">
             {/* Outer circle border */}
-            <circle cx="40" cy="40" r="38" fill="none" stroke="#3B82F6" strokeWidth="2"/>
-            
+            <circle cx="40" cy="40" r="38" fill="none" stroke="#3B82F6" strokeWidth="2" />
+
             {/* Text path - positioned to fill the ring space */}
             <defs>
               <path id="circle-path" d="M 40, 40 m -28, 0 a 28,28 0 1,1 56,0 a 28,28 0 1,1 -56,0" />
             </defs>
             <text className="text-[9.5px] fill-blue-600 font-rajdhani font-bold tracking-wide">
               <textPath href="#circle-path" startOffset="0%">
-                INFOPERFORMANCE - INFOPERFORMANCE - 
+                INFOPERFORMANCE - INFOPERFORMANCE -
               </textPath>
             </text>
-            
+
             {/* Center diagonal arrow */}
             <svg x="28" y="28" width="24" height="24" viewBox="0 0 24 24">
-              <path 
-                d="M7 17L17 7M17 7H7M17 7V17" 
-                stroke="#3B82F6" 
-                strokeWidth="2" 
-                strokeLinecap="round" 
+              <path
+                d="M7 17L17 7M17 7H7M17 7V17"
+                stroke="#3B82F6"
+                strokeWidth="2"
+                strokeLinecap="round"
                 strokeLinejoin="round"
                 fill="none"
               />
