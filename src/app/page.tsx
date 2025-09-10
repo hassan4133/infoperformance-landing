@@ -72,7 +72,7 @@ export default function Home() {
       <nav className="relative z-50 px-4 pt-4">
         <div className="flex justify-center">
           <div
-            className="bg-[#FFFFFF] backdrop-blur-sm rounded-full px-6 py-3 flex items-center justify-between shadow-lg border-l-4 border-r-4 border-b-4 border-purple-300/100 w-full max-w-[1050px]"
+            className="bg-[#FFFFFF] backdrop-blur-sm rounded-full px-6 py-3 flex items-center justify-between shadow-lg border-l-4 border-r-4 border-b-4 border-[#C3C9FF] w-full max-w-[1050px]"
           >
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-full flex items-center justify-center overflow-hidden">
