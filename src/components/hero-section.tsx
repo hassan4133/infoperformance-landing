@@ -25,15 +25,9 @@ export default function HeroSection() {
             }
           `}</style>
 
-          <div className="px-4 md:px-8 pt-16 pb-20" style={{ backgroundColor: "rgba(59, 130, 246, 0.01)" }}>
-            <div className="flex justify-start">
-              <div 
-                className="text-white max-w-4xl mt-8" 
-                style={{ 
-                  marginLeft: "clamp(16px, calc((100vw - 1050px) / 2 - 45px), calc((100vw - 1050px) / 2 - 64px))",
-                  paddingLeft: "24px" 
-                }}
-              >
+          <div className="px-4 md:px-8 pt-16 pb-20 md:ml-10" style={{ backgroundColor: "rgba(59, 130, 246, 0.01)" }}>
+            <div className="flex justify-start pl-4 md:pl-9">
+              <div className="text-white max-w-4xl mt-8">
                 {/* Gateway Badge */}
                 <div className="mb-6 md:mt-2 -mt-6">
                   <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 border border-white/20">
