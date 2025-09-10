@@ -78,7 +78,7 @@ export default function Home() {
               <div className="w-8 h-8 rounded-full flex items-center justify-center overflow-hidden">
                 <img src="/logo2.png" alt="Logo" className="w-full h-full object-cover" />
               </div>
-              <span className="font-rajdhani font-bold text-xl text-[#060707]">Infoperformance</span>
+              <span className="font-rajdhani font-bold text-2xl text-[#060707]">Infoperformance</span>
             </div>
 
             <div className="hidden md:flex items-center gap-8">
